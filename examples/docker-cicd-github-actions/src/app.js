@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 // Simple JSON response
 app.get('/', (req, res) => {
   res.json({
-    message: 'EDIT!!!!!! Hello! Automatically deployed with GitHub Actions! 🚀',
+    message: 'EDIT!!!!!! EDIT222!!!!! Hello! Automatically deployed with GitHub Actions! 🚀',
     version: process.env.APP_VERSION || '1.0.0',
     environment: process.env.NODE_ENV || 'development',
     timestamp: new Date().toISOString(),
